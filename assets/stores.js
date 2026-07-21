@@ -1,0 +1,94 @@
+window.PDS_STORES={
+  okuwa:{
+    slug:"okuwa",
+    name:"プラトーケアセンター大桑店",
+    shortName:"大桑店",
+    serviceType:"通所介護（デイサービス）",
+    catch:"デイサービスの時間だけで、支援を終わらせない。",
+    heroQuestions:["できることは、自分で続けたい。","安心できる場所なら、行ってみたい。"],
+    heroPromise:"大桑店で、自分らしい一日を。",
+    lead:"お風呂・食事・運動・会話を、ご本人のペースで。急かさず、できることはご自身で、難しいところだけスタッフがお手伝いします。",
+    heroNote:"日中の通所介護に加え、利用時間外に起きた生活上の困りごともご相談ください。本人と家族が無理を重ねすぎない方法を、年間を通して一緒に考えます。",
+    photos:{
+      hero:{src:"assets/okuwa/hero-activity-image.png",alt:"利用者とスタッフが一緒に活動を楽しむイメージ",caption:"活動のイメージ"},
+      gallery:[
+        {src:"assets/okuwa/bathroom.png",alt:"手すりを備えた浴室",caption:"手すりを備えた浴室"},
+        {src:"assets/okuwa/activity-image.png",alt:"スタッフと一緒に楽しむ活動のイメージ",caption:"活動のイメージ"},
+        {src:"assets/okuwa/walking-image.png",alt:"スタッフが歩行を支えるイメージ",caption:"歩行支援のイメージ"},
+        {src:"assets/okuwa/meal-image.png",alt:"スタッフが食事を支えるイメージ",caption:"食事支援のイメージ"}
+      ]
+    },
+    strengths:[
+      {title:"できることを大切にする",body:"何でも代わりにするのではなく、ご本人ができることや選びたいことを尊重し、必要なところだけお手伝いします。"},
+      {title:"安心できる一日をつくる",body:"入浴・食事・移動・排泄などを身体の状態に合わせて支え、無理なく落ち着いて過ごせるよう見守ります。"},
+      {title:"ご本人と家族の暮らしを支える",body:"日中の介助でご家族の負担を軽くし、利用時間外に起きた生活の変化も相談や必要な連携につなげます。"}
+    ],
+    highlights:[
+      {title:"安心して入れるお風呂",body:"手すりを備えた浴室で、できる動作を大切にしながら、ご本人の状態に合わせてお手伝いします。",image:"assets/okuwa/bathroom.png",alt:"手すりを備えた大桑店の浴室"},
+      {title:"自分のペースで過ごす時間",body:"会話や活動に参加するのも、ゆっくり休むのもご本人のペース。居心地のよい過ごし方を一緒に探します。",image:"assets/okuwa/pace-smile-image.png",alt:"利用者とスタッフが笑顔で過ごす様子"},
+      {title:"楽しみになる昼食",body:"食べやすさや体調に配慮しながら昼食を支え、安心して食事を楽しめる時間をつくります。",image:"assets/okuwa/meal-image.png",alt:"スタッフが食事を支えるイメージ"}
+    ],
+    fits:[
+      "介助を受けながら、住み慣れた家での暮らしを続けたい方",
+      "入浴・食事・移動などに手伝いがあれば、安心して過ごせる方",
+      "一人で過ごすより、見守りのある場所で自分のペースを大切にしたい方",
+      "家族の負担を減らしながら、通所介護を使って在宅生活を続けたい方"
+    ],
+    mismatches:[
+      "元気で、介護予防の運動だけを主な目的とする事業対象者の方",
+      "寝たきりで、食事・排泄・移動などに常時介助が必要な方",
+      "常時の個別介助や医療的管理を最優先にする必要がある方"
+    ],
+    mismatchNote:"合いにくい可能性がある場合も、すぐにお断りするのではなく、必要な介助量やご本人の状態を伺った上で、より合う支援方法を一緒に考えます。",
+    services:["入浴サービス","食事サービス","生活相談・援助","レクリエーション","機能訓練","健康チェック","送迎"],
+    day:[
+      {time:"朝",text:"ご自宅へお迎え・到着後の健康チェック"},
+      {time:"9:20〜",text:"入浴、機能訓練、生活に必要な介助"},
+      {time:"お昼",text:"昼食と休息"},
+      {time:"午後",text:"機能訓練、レクリエーション、生活上の相談"},
+      {time:"〜16:20",text:"ご自宅へお送り"}
+    ],
+    facts:{
+      address:"石川県金沢市笠舞本町2丁目5番2号",phone:"076-214-4036",fax:"076-214-4037",number:"1770104022",area:"金沢市",open:"月曜日〜土曜日",hours:"8:00〜17:00",serviceHours:"9:20〜16:20",capacity:"通所介護・介護予防型 30名／基準緩和型 15名",meal:"昼食 630円／食"
+    },
+    fees:[
+      {label:"通所介護・7時間以上8時間未満（1割負担）／要介護1",value:"約 882円／日"},
+      {label:"通所介護・7時間以上8時間未満（1割負担）／要介護2",value:"約 1,016円／日"},
+      {label:"通所介護・7時間以上8時間未満（1割負担）／要介護3",value:"約 1,156円／日"},
+      {label:"通所介護・7時間以上8時間未満（1割負担）／要介護4",value:"約 1,296円／日"},
+      {label:"通所介護・7時間以上8時間未満（1割負担）／要介護5",value:"約 1,438円／日"},
+      {label:"介護予防型・週1回程度（1割負担）",value:"約 2,184円／月"},
+      {label:"介護予防型・週2回程度（1割負担）",value:"約 4,350円／月"}
+    ],
+    feeNote:"表示額は2026年6月版重要事項説明書に基づく1割負担の目安です。通所介護はサービス提供時間9:20〜16:20に対応する「7時間以上8時間未満」を表示しています。正式な金額は負担割合・加算・送迎の有無などで変わります。昼食代630円／食などは別途です。",
+    simulator:{
+      daycareFees:{
+        1:[882,1016,1156,1296,1438],
+        2:[1763,2032,2312,2592,2876],
+        3:[2644,3048,3468,3888,4314]
+      },
+      monthlyDaycareAddons:{1:137,2:274,3:411},
+      preventive:[
+        {value:"preventive1",label:"介護予防型（週1回程度）",visits:4,fees:{1:2184,2:4367,3:6550}},
+        {value:"preventive2",label:"介護予防型（週2回程度）",visits:8,fees:{1:4350,2:8700,3:13050}}
+      ],
+      lunch:630,
+      transportDeduction:54,
+      bathDeduction:46
+    },
+    availability:{
+      sheetId:"1U-YdHkOBp28_pgd013rxZ4h5qfvZFskniXc_2xkwGao",gid:250282962,
+      sheetUrl:"https://docs.google.com/spreadsheets/d/1U-YdHkOBp28_pgd013rxZ4h5qfvZFskniXc_2xkwGao/edit",
+      status:"大桑店のスプレッドシートから最新情報を読み込みます。表示できない場合は、確認済みの控えを表示します。",
+      rows:[
+        {day:"月",facility:"3名",bath:"1名"},
+        {day:"火",facility:"多数",bath:"多数"},
+        {day:"水",facility:"2名",bath:"3名"},
+        {day:"木",facility:"2名",bath:"空き無し"},
+        {day:"金",facility:"3名",bath:"多数"},
+        {day:"土",facility:"3名",bath:"3名"}
+      ]
+    },
+    links:{general:"okuwa.html",guide:"okuwa-guide.html",map:"https://maps.google.com/maps?q=%E7%9F%B3%E5%B7%9D%E7%9C%8C%E9%87%91%E6%B2%A2%E5%B8%82%E7%AC%A0%E8%88%9E%E6%9C%AC%E7%94%BA2%E4%B8%81%E7%9B%AE5%E7%95%AA2%E5%8F%B7&hl=ja&z=16&output=embed"}
+  }
+};
